@@ -1,5 +1,5 @@
 function gerarPdf() {
-  let novaPagina = document.implementation.createHTMLDocument("PDF-GERADO");
+  let novaPagina = document.implementation.createHTMLDocument("Termo Do Dispositivo: ");
   let linkCSS = novaPagina.createElement("link");
   linkCSS.href =
     "https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css";
