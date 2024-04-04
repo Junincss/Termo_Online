@@ -37,18 +37,43 @@
           />
           <label for="cpf_number">CPF:</label>
         </div>
-        <div class="form-floating mb-3 bg-secundary">
-          <select
-            class="form-select bg-secundary d-flex justify-content-center align-items-center"
-            aria-label="Default select example" id="modelodis"
-          >
-            <option selected disabled></option>
-            <option value="GALAXY A03">Samsung A03</option>
-            <option value="GALAXY A05">Samsung A05</option>
-            <option value="GALAXY A10S">Samsung A10S</option>
-            <option value="GALAXY A14">Samsung A14</option>
-          </select>
-          <label for="modelodis">Modelo Dispositivo:</label>
+       <div class="form-floating">
+          <label for="exampleDataList" class="form-floating lh-1" >Modelo do dispostivo:</label>
+          <input 
+            class="form-control lh-lg py-4 mt-3"
+            list="datalistOptions"
+            id="modelodis"
+            placeholder="Modelo Dispositivo">
+          <datalist id="datalistOptions">
+            <option value="NOKIA 2.3"></option>
+            <option value="REDMI 10A"></option>
+            <option value="REDMI 9A"></option>
+            <option value="REDMI NOTE 12S"></option>
+            <option value="GALAXY J4 CORE"></option>
+            <option value="LG K20"></option>
+            <option value="LG K41S"></option>
+            <option value="LG K40"></option>
+            <option value="MOTO E5 PLAY"></option>
+            <option value="MOTO E6 PLAY"></option>
+            <option value="MOTO G7 POWER"></option>
+            <option value="MOTO G8 PLAY"></option>
+            <option value="GALAXY A01 CORE"></option>
+            <option value="GALAXY A01"></option>
+            <option value="GALAXY A02"></option>
+            <option value="GALAXY A02S"></option>
+            <option value="GALAXY A03"></option>
+            <option value="GALAXY A03S"></option>
+            <option value="GALAXY A03 CORE"></option>
+            <option value="GALAXY A04"></option>
+            <option value="GALAXY A05"></option>
+            <option value="GALAXY A10S"></option>
+            <option value="GALAXY A12"></option>
+            <option value="GALAXY A14"></option>
+            <option value="GALAXY A30S"></option>
+            <option value="GALAXY A32"></option>
+            <option value="GALAXY J5 PRIME"></option>
+            <option value="GALAXY M32"></option>
+          </datalist>
         </div>
         <div class="form-floating">
           <input
